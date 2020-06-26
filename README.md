@@ -16,6 +16,6 @@ Usage:
 `./Fourier3D -BinFactor 2 -InputFile input_tomogram_name -OutputFile output_tomogram_name -MemoryLimit 8000`
 
 
-The code can be redistributed and/or modified under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+The source code for Fourier3D is distributed under an GPL v.3 license. The code can be redistributed and/or modified under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
 
 The code is distributed WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
