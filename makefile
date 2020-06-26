@@ -8,7 +8,7 @@ SOURCES := $(shell find $(IDIR) -name '*.cpp')
 CXX = g++ -O3 -s -DNDEBUG
 #CXX = g++ -g -W -Wall -Werror
 #CXX = g++ -O0 -g3 -Wall -c
-CXXFLAGS = -std=c++0x -I$(fftpath)/include
+CXXFLAGS = -std=c++0x
 LDFLAGS = -lfftw3 -lfftw3f -L./lib/ -L./
 #LDFLAGS += -g
 
