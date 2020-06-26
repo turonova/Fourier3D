@@ -2,13 +2,15 @@
 
 A program for tomogram binning in Fourier space. It supports MRC format and can handle large tomograms. The amount of RAM used during the binning is specified by the "MemoryLimit" parameter (in MB) - the data will be split accordingly into chunks that will be temporarily stored in the folder from which the program is run. There is no parallelization in the code. 
 
-Compilation:
+The program was tested using foss 2017b. 
+
+Install:
 
 `make includepath="path_to_fftw_include_files" libpath="path_to_fftw_libraries"`
 
 Example:
 
-`make includepath="/g/software/linux/pack/fftw-3.3.4/include" libpath="/g/software/linux/pack/fftw-3.3.4/lib /g/software/linux/pack/fftw-3.1.2/lib64"`
+`make includepath="/path/to/fftw/fftw-3.3.4/include" libpath="/path/to/fftw/fftw-3.3.4/lib /path/to/fftw/fftw-3.1.2/lib64"`
 
 
 Usage:
